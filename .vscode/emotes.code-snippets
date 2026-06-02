@@ -1,0 +1,408 @@
+{
+  // ── 1 · Status ────────────────────────────────────────────
+  "ok": { "prefix": ".1ok", "body": "✅", "description": "Sucesso" },
+  "no": { "prefix": ".1no", "body": "❌", "description": "Erro" },
+  "warn": { "prefix": ".1warn", "body": "⚠️", "description": "Aviso" },
+  "info": { "prefix": ".1info", "body": "ℹ️", "description": "Informação" },
+  "help": { "prefix": ".1help", "body": "❓", "description": "Ajuda" },
+  "exclamation": {
+    "prefix": ".1exc",
+    "body": "❗",
+    "description": "Exclamação",
+  },
+  "loading": { "prefix": ".1load", "body": "⏳", "description": "Carregando" },
+  "timer": { "prefix": ".1timer", "body": "⏱️", "description": "Cronômetro" },
+  "sleep": { "prefix": ".1zzz", "body": "💤", "description": "Dormir/ausente" },
+
+  // ── 2 · Destaques ─────────────────────────────────────────
+  "fire": { "prefix": ".2fire", "body": "🔥", "description": "Destaque" },
+  "star": { "prefix": ".2star", "body": "⭐", "description": "Importante" },
+  "sparkles": { "prefix": ".2spark", "body": "✨", "description": "Especial" },
+  "boom": { "prefix": ".2boom", "body": "💥", "description": "Explosão" },
+  "rocket": { "prefix": ".2rocket", "body": "🚀", "description": "Execução" },
+  "gem": { "prefix": ".2gem", "body": "💎", "description": "Diamante/premium" },
+  "trophy": {
+    "prefix": ".2trophy",
+    "body": "🏆",
+    "description": "Campeão/booyah",
+  },
+  "medal": {
+    "prefix": ".2medal",
+    "body": "🥇",
+    "description": "Primeiro lugar",
+  },
+  "rank": { "prefix": ".2rank", "body": "🎖️", "description": "Patente/rank" },
+  "crown": { "prefix": ".2crown", "body": "♛", "description": "Coroa" },
+
+  // ── 3 · Moderação ─────────────────────────────────────────
+  "admin": { "prefix": ".3admin", "body": "🛡️", "description": "Admin" },
+  "mod": { "prefix": ".3mod", "body": "🔧", "description": "Moderação" },
+  "config": {
+    "prefix": ".3config",
+    "body": "⚙️",
+    "description": "Configuração",
+  },
+  "ban": { "prefix": ".3ban", "body": "🚫", "description": "Banimento" },
+  "kick": { "prefix": ".3kick", "body": "👢", "description": "Remover" },
+  "lock": { "prefix": ".3lock", "body": "🔒", "description": "Bloqueado" },
+  "unlock": {
+    "prefix": ".3unlock",
+    "body": "🔓",
+    "description": "Desbloqueado",
+  },
+  "bug": { "prefix": ".3bug", "body": "🐛", "description": "Erro/Bug" },
+
+  // ── 4 · Usuários & comunicação ────────────────────────────
+  "user": { "prefix": ".4user", "body": "👤", "description": "Usuário" },
+  "users": { "prefix": ".4users", "body": "👥", "description": "Grupo" },
+  "hi": { "prefix": ".4hi", "body": "👋", "description": "Oi/Tchau" },
+  "msg": { "prefix": ".4msg", "body": "💬", "description": "Mensagem" },
+  "bell": { "prefix": ".4bell", "body": "🔔", "description": "Notificação" },
+  "bell_off": {
+    "prefix": ".4belloff",
+    "body": "🔕",
+    "description": "Notificação silenciada",
+  },
+  "checklist": { "prefix": ".4list", "body": "📋", "description": "Lista" },
+  "map": { "prefix": ".4map", "body": "🗺️", "description": "Mapa" },
+
+  // ── 5 · Finanças ──────────────────────────────────────────
+  "up": { "prefix": ".5up", "body": "📈", "description": "Aumentou" },
+  "down": { "prefix": ".5down", "body": "📉", "description": "Diminuiu" },
+  "money": { "prefix": ".5money", "body": "💰", "description": "Dinheiro" },
+  "pix": { "prefix": ".5pix", "body": "💸", "description": "Pagamento" },
+
+  // ── 6 · Círculos coloridos ────────────────────────────────
+  "red": { "prefix": ".6red", "body": "🔴", "description": "Círculo vermelho" },
+  "green": {
+    "prefix": ".6green",
+    "body": "🟢",
+    "description": "Círculo verde",
+  },
+  "yellow": {
+    "prefix": ".6yellow",
+    "body": "🟡",
+    "description": "Círculo amarelo",
+  },
+  "blue": { "prefix": ".6blue", "body": "🔵", "description": "Círculo azul" },
+
+  // ── 7 · Free Fire / gaming ───────────────────────────────
+  "gun": { "prefix": ".7gun", "body": "🔫", "description": "Arma/combate" },
+  "knife": { "prefix": ".7knife", "body": "🔪", "description": "Faca/melee" },
+  "crossed_swords": {
+    "prefix": ".7swords",
+    "body": "⚔️",
+    "description": "Batalha/PvP",
+  },
+  "target": {
+    "prefix": ".7target",
+    "body": "🎯",
+    "description": "Alvo/precisão",
+  },
+  "shield": {
+    "prefix": ".7shield",
+    "body": "🛡️",
+    "description": "Proteção/defesa",
+  },
+  "skull": {
+    "prefix": ".7skull",
+    "body": "💀",
+    "description": "Morte/eliminado",
+  },
+  "parachute": {
+    "prefix": ".7para",
+    "body": "🪂",
+    "description": "Paraquedas/drop",
+  },
+  "joystick": {
+    "prefix": ".7joy",
+    "body": "🕹️",
+    "description": "Joystick/game",
+  },
+
+  // ── 8 · Setas & navegação ────────────────────────────────
+  "arrow_right": {
+    "prefix": ".8arr",
+    "body": "➜",
+    "description": "Seta direita simples",
+  },
+  "arrow_bold": {
+    "prefix": ".8arrb",
+    "body": "➤",
+    "description": "Seta direita grossa",
+  },
+  "arrow_chevron": {
+    "prefix": ".8chev",
+    "body": "❯",
+    "description": "Chevron/prompt",
+  },
+  "arrow_long": {
+    "prefix": ".8arrl",
+    "body": "⟶",
+    "description": "Seta longa",
+  },
+  "arrow_dashed": {
+    "prefix": ".8arrd",
+    "body": "⇢",
+    "description": "Seta tracejada",
+  },
+  "arrow_small": {
+    "prefix": ".8arsm",
+    "body": "▸",
+    "description": "Seta pequena ▸",
+  },
+  "arrow_up": {
+    "prefix": ".8arru",
+    "body": "↑",
+    "description": "Seta para cima",
+  },
+  "arrow_down_txt": {
+    "prefix": ".8arrdown",
+    "body": "↓",
+    "description": "Seta para baixo",
+  },
+  "double_arrow": {
+    "prefix": ".8darr",
+    "body": "»",
+    "description": "Dupla seta",
+  },
+
+  // ── 9 · Decorativos ──────────────────────────────────────
+  "sylph_star": {
+    "prefix": ".9sstar",
+    "body": "𖥨",
+    "description": "Estrela ornamental 𖥨",
+  },
+  "combining_mark": {
+    "prefix": ".9cmark",
+    "body": "֗",
+    "description": "Marca combinante ֗",
+  },
+  "circle_arrow": {
+    "prefix": ".9carrow",
+    "body": "⭟",
+    "description": "Seta circular ⭟",
+  },
+  "petal": { "prefix": ".9petal", "body": "ꕸ", "description": "Pétala/flor ꕸ" },
+  "fancy_dot": {
+    "prefix": ".9fdot",
+    "body": "⊰",
+    "description": "Ponto deco esquerdo",
+  },
+  "fancy_dot_r": {
+    "prefix": ".9fdotr",
+    "body": "⊱",
+    "description": "Ponto deco direito",
+  },
+  "flower": {
+    "prefix": ".9flower",
+    "body": "❁",
+    "description": "Flor decorativa",
+  },
+  "diamond": {
+    "prefix": ".9diam",
+    "body": "◆",
+    "description": "Diamante preenchido",
+  },
+  "diamond_outline": {
+    "prefix": ".9diamo",
+    "body": "◇",
+    "description": "Diamante vazio",
+  },
+  "circle_fill": {
+    "prefix": ".9cfill",
+    "body": "●",
+    "description": "Círculo preenchido",
+  },
+  "circle_outline": {
+    "prefix": ".9cout",
+    "body": "○",
+    "description": "Círculo vazio",
+  },
+  "star_4": {
+    "prefix": ".9s4",
+    "body": "✦",
+    "description": "Estrela 4 pontas",
+  },
+  "star_4_small": {
+    "prefix": ".9s4s",
+    "body": "✧",
+    "description": "Estrela 4 pontas pequena",
+  },
+  "star_6": {
+    "prefix": ".9s6",
+    "body": "✶",
+    "description": "Estrela 6 pontas",
+  },
+  "dagger": { "prefix": ".9dag", "body": "†", "description": "Adaga/cross" },
+
+  // ── 10 · Unicode de texto ────────────────────────────────
+  "dot": { "prefix": ".10dot", "body": "•", "description": "Bullet" },
+  "middot": { "prefix": ".10mdot", "body": "·", "description": "Ponto médio" },
+  "guillemet_r": {
+    "prefix": ".10gl",
+    "body": "›",
+    "description": "Guillemet simples",
+  },
+  "guillemet_d": {
+    "prefix": ".10gld",
+    "body": "»",
+    "description": "Guillemet duplo",
+  },
+  "ellipsis": {
+    "prefix": ".10ell",
+    "body": "…",
+    "description": "Reticências unicode",
+  },
+  "em_dash": { "prefix": ".10emdash", "body": "—", "description": "Travessão" },
+  "zwsp": {
+    "prefix": ".10zwsp",
+    "body": "​",
+    "description": "Zero-width space",
+  },
+
+  // ── 11 · Separadores & linhas ────────────────────────────
+  "line_thin": {
+    "prefix": ".11line",
+    "body": "─────────────────",
+    "description": "Linha fina",
+  },
+  "line_double": {
+    "prefix": ".11lined",
+    "body": "═════════════════",
+    "description": "Linha dupla",
+  },
+  "line_wave": {
+    "prefix": ".11linew",
+    "body": "〰〰〰〰〰〰〰〰〰",
+    "description": "Linha ondulada",
+  },
+  "line_dot": {
+    "prefix": ".11linedot",
+    "body": "· · · · · · · · ·",
+    "description": "Linha pontilhada",
+  },
+  "line_star": {
+    "prefix": ".11lines",
+    "body": "✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦",
+    "description": "Linha de estrelas",
+  },
+
+  // ── 12 · Caixas (boxt → boxs → boxb) ────────────────────
+  "box_top": {
+    "prefix": ".12boxt",
+    "body": "╭─────────────────╮",
+    "description": "Topo de caixa",
+  },
+  "box_side": {
+    "prefix": ".12boxs",
+    "body": "│",
+    "description": "Lateral de caixa",
+  },
+  "box_section": {
+    "prefix": ".12boxsec",
+    "body": "├─",
+    "description": "Divisor interno",
+  },
+  "box_bottom": {
+    "prefix": ".12boxb",
+    "body": "╰─────────────────╯",
+    "description": "Base de caixa",
+  },
+
+  // ── 13 · Árvore (indent → branch → leaf) ─────────────────
+  "indent": {
+    "prefix": ".13indent",
+    "body": "┊",
+    "description": "Indentação vertical",
+  },
+  "tree_branch": {
+    "prefix": ".13branch",
+    "body": "┣",
+    "description": "Ramo de árvore",
+  },
+  "tree_leaf": {
+    "prefix": ".13leaf",
+    "body": "┗",
+    "description": "Último item de árvore",
+  },
+
+  // ── 14 · Fancy (fopen → indent → fclose) ─────────────────
+  "fancy_open": {
+    "prefix": ".14fopen",
+    "body": "╭┈⊰",
+    "description": "Abertura decorativa",
+  },
+  "fancy_close": {
+    "prefix": ".14fclose",
+    "body": "╰─┈┈┈┈┈◜❁◞┈┈┈┈┈─╯",
+    "description": "Fechamento decorativo",
+  },
+
+  // ── 15 · Wrappers (cursor no meio) ───────────────────────
+  "wrap_star": {
+    "prefix": ".15wstar",
+    "body": "𖥨֗ $1 ⭟",
+    "description": "𖥨֗ [texto] ⭟",
+  },
+  "wrap_petal": {
+    "prefix": ".15wpetal",
+    "body": "ꕸ $1 ꕸ",
+    "description": "ꕸ [texto] ꕸ",
+  },
+  "wrap_arrow": {
+    "prefix": ".15warr",
+    "body": "▸ $1 ◂",
+    "description": "▸ [texto] ◂",
+  },
+  "wrap_diamond": {
+    "prefix": ".15wdiam",
+    "body": "◆ $1 ◆",
+    "description": "◆ [texto] ◆",
+  },
+  "wrap_star4": {
+    "prefix": ".15ws4",
+    "body": "✦ $1 ✦",
+    "description": "✦ [texto] ✦",
+  },
+  "wrap_chevron": {
+    "prefix": ".15wchev",
+    "body": "❯ $1 ❮",
+    "description": "❯ [texto] ❮",
+  },
+  "wrap_crown": {
+    "prefix": ".15wcrown",
+    "body": "♛ $1 ♛",
+    "description": "♛ [texto] ♛",
+  },
+  "wrap_fancy": {
+    "prefix": ".15wfancy",
+    "body": "⊰ $1 ⊱",
+    "description": "⊰ [texto] ⊱",
+  },
+  "wrap_fire": {
+    "prefix": ".15wfire",
+    "body": "🔥 $1 🔥",
+    "description": "🔥 [texto] 🔥",
+  },
+  "wrap_shield": {
+    "prefix": ".15wshield",
+    "body": "🛡️ $1 🛡️",
+    "description": "🛡️ [texto] 🛡️",
+  },
+  "wrap_bracket_fancy": {
+    "prefix": ".15wbf",
+    "body": "「 $1 」",
+    "description": "「 [texto] 」",
+  },
+  "wrap_guillemet": {
+    "prefix": ".15wgl",
+    "body": "« $1 »",
+    "description": "« [texto] »",
+  },
+  "wrap_dot": {
+    "prefix": ".15wdot",
+    "body": "• $1 •",
+    "description": "• [texto] •",
+  },
+}

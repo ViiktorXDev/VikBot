@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1779817013206,
+      "tag": "0000_create-user-and-key-tables",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1779840810520,
+      "tag": "0001_create-broadcasts-tables",
+      "breakpoints": true
+    }
+  ]
+}
